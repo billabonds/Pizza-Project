@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quattrocento', serif;
+    font-family: 'Ruda', sans-serif;
+}
+
+/* -------------------------------------------  Header  ----------------------------------------------------------- */
+
+ .navbar{
+    background-color: black;
+    color: white;
+    border: 3px solid green;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-items{
+    display: flex;
+    column-gap: 50px;
+}
+
+.nav-items a{
+    color: white;
+    text-decoration: none;
+}
+
+/*
+.link{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link a{
+    width: 10px;
+    color: white;
+}  */
+
+
+/*  ----------------------------------------------- Main Section ------------------------------------- */
+
+.container .home-container {
+    background-image: url("./images/pizza1\ 1.png");;
+    position: relative;
+    top: 56px;
+    height: 670px;
+    width: 100%;
+}
+
+.container .home-container h1{
+    color: white;
+    font-size: 101px;
+    position: absolute;
+    top: 75px;
+    left: 75px;
+    height: 210px;
+    width: 902px;
+    font-family: 'Quattrocento';
+    font-weight: 700;
+}
+
+.container .home-container p{
+    position: absolute;
+    width: 549px;
+    height: 300px;
+    left: 75px;
+    top: 400px;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    line-height: 28px;
+    color: white;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+.about{
+    background-color: black;
+    position: relative;
+    padding: 20px;
+}
+
+.about h1{
+    top: 800px;
+    /* position: absolute; */
+    padding: 65px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline red;
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 0px;
+}
+
+.about .data{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.09em;
+}
+
+.about .text{
+    width: 40%;
+    padding: 25px;
+    color: white;
+    /* width: 631px; */
+    height: 250px;
+}
+
+.main{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main h1{
+    top: 800px;
+    /* position: absolute; */
+    padding: 75px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline red;
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 0px;
+}
+
+.maindescription p{
+    color: white;
+    text-align: center;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+    /* justify-content: 10px; */
+}
+
+.imagegrid img{
+    width: 200px;
+    height: 150px;
+    /* margin-right: 2rem; */
+}
+
+.imagegrid p{
+    color: white;
+}
+
+.imagegrid .pizza-image {
+    display: flex;
+    /* justify-content: center; */
+    margin: 100px;
+    justify-content: space-between;
+}
+
+.imagegrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90vw;
+    margin: 0 20px;
+    row-gap: 1rem;
+    column-gap: 0.5rem;
+    padding: 3rem;
+}
+
+.pizzaimage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.pizzaimage p{
+    width: 30%;
+    text-align: center;
+}
+
+.findus{
+    background-color: black; 
+    /* height: 100vh; */
+    /* display: flex; */
+}
+
+.findus h1{
+    top: 800px;
+    /* position: absolute; */
+    padding: 75px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline red;
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 0px;
+}
+
+.findus-content{
+    display: flex;
+    justify-content: center;
+}
+
+.findus-content p{
+    color: white;
+}
+
+.loc .text, .tel .text{
+    color: white;
+}
+
+.loc,.tel{
+    display: flex;
+    padding: 50px;
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.bottom-right p{
+    color: white;
+}
+
+/* ------------------------------------     Footer   ---------------------------------------------- */
+
+
+
+
+
